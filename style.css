@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,latin-ext,vietnamese');
+
+:root {
+    --fontJosef: 'Josefin Sans', sans-serif;
+    --fontPlay: 'Playfair Display', serif;
+}
+header .container{
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header .social, .user {
+    width: 160px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+header i {
+    margin-right: 25px;
+    cursor: pointer;
+    color: #aeb0b5;
+}
+header .fa-instagram:hover, footer .fa-instagram:hover  {
+    color: pink;
+}
+header .fa-facebook-f:hover, footer .fa-facebook-f:hover {
+    color: blue;
+}
+header .fa-pinterest:hover,footer .fa-pinterest:hover {
+    color: red;
+}
+footer .fa-twitter:hover  {
+    color: deepskyblue;
+}
+header .logo {
+   object-fit: contain; /**********************/
+   margin-top: 35px;
+}
+header hr {
+    width: 100%;
+    height: 1px;
+    color: #d6d7d9;
+    outline: none;
+}
+header ul {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+header ul a li {
+    font: 700 14px var(--fontJosef);
+    display: inline;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #212121;
+    text-transform: uppercase;
+    margin-right: 50px;
+    cursor: pointer;
+}
+header ul a:hover {
+    text-decoration: none;
+}
+header .carousel-item h3 {
+    text-align: center;
+    font: 400 60px var(--fontPlay);
+    line-height: 80px;
+    color: #cccccc;
+}
+header .carousel-item p {
+    font: 400 26px var(--fontJosef);
+    width: 500px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: #999999;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+header .fa-arrow-right, .fa-arrow-left {
+    color: #999999;
+    font-size: 30px;
+}
+header .fa-arrow-right {
+    margin-left: 120px;
+}
+header .fa-arrow-left {
+    margin-right: 120px;
+}
+#twoPage {
+    margin-top: 230px;
+    height: 600px;
+}
+#twoPage .cat img {
+    width: 50%;
+    cursor: pointer;
+}
+#twoPage article img {
+    float: left;
+    width: 25%;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+#twoPage .cat div, .round div, .square div, .flower div, .hair div {
+    background-color: #cccccc;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    font: 25px var(--fontJosef);
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+} 
+#twoPage .cat div {
+    left: 300px;
+    top: 1570px;
+    width: 140px;
+}
+#twoPage .round div {
+    left: 820px;
+    top: 1220px;
+    width: 220px;
+}
+#twoPage .square div {
+    left: 1150px;
+    top: 1220px;
+    width: 290px;
+}
+#twoPage .flower div {
+    left: 780px;
+    top: 1570px;
+    width: 310px;
+}
+#twoPage .hair div {
+    left: 1140px;
+    top: 1570px;
+    width: 310px;
+}
+#arrivals h5 {
+    font: 400 44px var(--fontPlay);
+    line-height: 50px;
+    color: #212121;
+    text-align: center;
+    margin-top: 170px;
+}
+#arrivals .goodsOne {
+    display: flex;
+    margin-top: 50px;
+}
+#arrivals .goodsTwo {
+    display: flex;
+    margin-top: 40px;
+}
+#arrivals article {
+    cursor: pointer;
+}
+#arrivals article h4 {
+    text-align: center;
+}
+#arrivals article span {
+    display: block;
+    text-align: center;
+}
+#arrivals button {
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    text-transform: uppercase;
+    width: 560px;
+    height: 60px;
+    border: 2px solid #e7e7e9;
+    outline: none;
+    background-color: #fff;
+    font: 700 16px var(--fontJosef);
+    letter-spacing: 2px;
+    color: #aeb0b5;
+    margin-bottom: 50px;
+}
+#arrivals hr {
+    height: 2px;
+    background-color: #ededed;
+    outline: none;
+}
+/**/
+#partners {
+    height: 170px;
+}
+#partners .container {
+    margin-top: 70px;
+}
+#partners .brands{
+    float: right;
+}
+#partners .brands img {
+    margin-right: 10px;
+}
+/**/
+#footerImage {
+    height: 385px;
+    background-image: url("img/foot.jfif");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#blackLine {
+    height: 100px;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: space-around;
+}
+/**********FOOTER**********/
+footer .containerFooter {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+footer .footerMenu {
+    display: flex;
+}
+footer .footerMenuOne {
+    margin-right: 150px;
+}
+footer .footerContact i {
+    margin: 25px 20px 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+footer .footerContact a {
+    color: #000;
+}
+/**/
+footer .footerMenuOne ul a  {
+    font: 700 14px var(--fontJosef);
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #212121;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/**/
+footer .footerMenuTwo ul a {
+    font: 700 14px var(--fontJosef);
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #212121;
+    text-transform: uppercase;
+    cursor: pointer;    
+}
+/**/
+footer .subscribe p {
+    font: 500 14px var(--fontJosef);
+    text-transform: uppercase;
+}
+footer .subscribe input {
+    background-color: #000;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+footer .subscribe input::placeholder {
+    color: #aeb0b5;
+}
+footer .subscribe input:empty {
+    color: #aeb0b5;
+    padding-left: 10px;
+}
+footer .subscribe button {
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #aeb0b5;
+    text-transform: uppercase;
+    height: 40px;
+    border-radius: 15px;
+}
+#toTop {
+    position:fixed;
+    bottom:30px;
+    right:50px;
+    cursor:pointer;
+    display:none;
+    font-size: 50px;
+}
+@media only screen and (max-width: 768px) {
+    header .container {
+        width: 100%;
+    }
+    header .logo {
+        margin-top: 35px;
+        margin-right: 25px;
+    }
+    header .fa-arrow-right, .fa-arrow-left {
+        display: none;
+    }
+    header .carousel-item p {
+        width: 100%;
+    }
+    header ul a li {
+        display: block;
+        margin: auto;
+    }
+    #twoPage {
+        margin-top: 120px;
+    }
+    #twoPage .cat img {
+        width: 100%;
+    }
+    #twoPage article img {
+        width: 50%;
+    }
+    #twoPage .round h2,.square h2,.flower h2,.hair h2 {
+        font: 18px var(--fontJosef);
+        padding: 3px 3px 0 3px;
+    }
+    #twoPage .cat div, .round div, .square div,.flower div, .hair div {
+        font: 16px var(--fontJosef);
+    }
+
+    #arrivals h5 {
+        margin-top: 330px;
+    }
+    #arrivals button {
+        width: 100%;
+    }
+    #arrivals .goodsOne, .goodsTwo  {
+        text-align: center;
+        display: block;
+        flex-direction: column;
+    }
+    #footerImage {
+        height: 150px;
+        background-size: 800px;
+    }
+    #partners {
+        height: 400px;
+    }
+
+    #blackLine {
+        width: 100%;
+    }
+    #blackLine img {
+        width: 25%;
+    }
+    .containerFooter {
+        flex-direction: column;
+    }
+    .footerContact {
+        margin-top: 130px;
+        width: 100%;
+        text-align: center;
+    }
+    .footerMenu {
+        margin: auto;
+        margin-top: 50px;
+    }
+    .subscribe {
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    #toTop {
+        bottom: 52px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1100px) {
+    header ul a li {
+        display: block;
+        margin: auto;
+    }
+    #twoPage {
+        margin-top: 200px;
+    }
+    #twoPage .round h2,.square h2,.flower h2,.hair h2 {
+        font: 18px var(--fontJosef);
+        padding: 3px 3px 0 3px;
+    }
+    #twoPage .cat div, .round div, .square div,.flower div, .hair div {
+        font: 16px var(--fontJosef);
+    }
+    #twoPage .cat div  {
+        left: 130px;    
+        top: 1220px;
+        width: 150px;
+    }
+    #twoPage .round div {
+        left: 610px;
+        top: 1050px;
+        width: 170px;
+    }
+    #twoPage .square div {
+        left: 410px;
+        top: 1050px;
+        width: 170px;
+    }
+    #twoPage .flower div {
+        left: 410px;
+        top: 1250px;
+        width: 180px;
+    }
+    #twoPage .hair div {
+        left: 610px;
+        top: 1250px;
+        width: 170px;
+    }
+    #arrivals h5 {
+        margin-top: 0px;
+    }
+    #arrivals button {
+        width: 100%;
+    }
+    #arrivals .goodsOne, .goodsTwo  {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    #partners {
+        height: 200px;
+    }
+    #partners img {
+        width: 20%;
+    }
+    #footerImage {
+        height: 200px;
+        background-size: 850px;
+    }
+    #blackLine {
+        width: 100%;
+    }
+    #blackLine img {
+        width: 25%;
+    }
+    .containerFooter {
+        flex-direction: column;
+    }
+    .footerContact {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+    .footerMenu {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .subscribe {
+        text-align: center;     
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+}

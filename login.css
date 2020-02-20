@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+body {
+    background-color: #81cdd1;
+    position: relative;
+}
+
+#umumi {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ust {
+    background-color: #fc6539;
+    border-radius: 3px 3px 0 0;
+}
+
+#ust h3 {
+    font: 800 1.5em 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#ust input {
+    width: 100%;
+    height: 70px;
+    background-color: #ba3c24;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    line-height: 45px;
+    color: #FFF;
+    font: 400 1.5em 'Open Sans', sans-serif;
+    padding-left: 20px;
+}
+
+#ust input:nth-child(2) {
+    margin-top: 40px;
+}
+
+#ust input:nth-child(3) {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#ust input::placeholder {
+    color: #FFF;
+}
+
+#alt {
+    background-color: #b93b23;
+}
+
+#alt a {
+    font: 400 1.5em 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+#alt button {
+    width: 250px;
+    height: 70px;
+    font: 400 1.5em 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #ba3c24;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 50px 0;
+}
